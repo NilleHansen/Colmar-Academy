@@ -211,8 +211,8 @@ div {
 
 .course-container {
   display: flex;
-  padding: 0px 72px 0px 72px;
   flex-flow: wrap;
+  justify-content: center;
 
 }
 
@@ -248,7 +248,47 @@ div {
 
 .course-info {
   align-content: center;
+  padding: 24px 16px;
 }
+
+.course-info span {
+  padding: 8px 0px;
+}
+
+
+/* Courses */
+
+.thesis-container {
+  width: 100%;
+  display: flex;
+}
+
+
+
+.thesis-info {
+  width: 40%;
+}
+
+.thesis-info img {
+  width: 35%;
+  height: auto;
+}
+
+.thesis h1 {
+  text-align: center;
+}
+
+.video-flexbox {
+  width: 60%;
+  flex-flow: column;
+  padding: 0px 24px;
+
+}
+
+.thesis .flexbox {
+
+}
+
 
 /* footer */
 
