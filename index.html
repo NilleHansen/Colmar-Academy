@@ -3,32 +3,44 @@
   <head>
     <meta charset="utf-8">
     <title>Colmar Academy</title>
+    <link rel="stylesheet" href="resources/css/style.css">
   </head>
 
   <body>
     <!-- header -->
     <header>
-      <div class="header container">
+      <div class="logo flexbox">
+        <img src="resources/images/ic-logo.svg" alt="">
         <span>COLMAR ACADEMY</span>
         <img src="" alt="logo">
       </div>
 
-      <div class="navigation container">
-        <nav>
-          <ul>
-            <li>On Campus</li>
-            <li>Online</li>
-            <li>For Companies</li>
-            <li>Sign in</li>
-          </ul>
-        </nav>
+      <div class="menu">
+        <div class="menu">
+          <nav>
+            <ul>
+              <li>On Campus</li>
+              <li>Online</li>
+              <li>For Companies</li>
+              <li>Sign in</li>
+            </ul>
+            <ul class="phone-menu">
+              <li><img src="resources/images/ic-on-campus.svg" alt=""></li>
+              <li><img src="resources/images/ic-online.svg" alt=""></li>
+              <li><img src="resources/images/ic-login.svg" alt=""></li>
+          </nav>
+        </div>
       </div>
     </header>
 
-<!-- Main Banner -->
+<!-- Banner -->
 
-    <div class="main-banner container">
-      <div class="slogan container">
+    <div class="banner container">
+      <div class="flex-box">
+        <img src="resources/images/banner.jpg" alt="">
+      </div>
+
+      <div class="flex-box">
         <h1>Learn something new every day</h1>
         <h2>Lorem ipsum dolor sit amet, consectetur adipicing elit.</h2>
       </div>
@@ -40,8 +52,9 @@
 
 <!-- Main content -->
 
-<div class="main-content container">
+<div class="information container">
   <div class="practice">
+    <img src="resources/images/information-main.jpg" alt="">
     <h1>It doesn't hurt to keep practicing</h1>
     <p>
       "Curibatur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consquat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula"
@@ -49,20 +62,23 @@
     <span>Emanuel, Sr Strategist at Hirin.com</span>
   </div>
 
-  <div class="program container">
+  <div class="program">
     <div class="orientation">
+      <img src="resources/images/information-orientation.jpg" alt="">
       <h2>Orientation Date</h2>
       <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
       <a href="#">Read more</a>
     </div>
 
     <div class="campus">
+      <img src="resources/images/information-campus.jpg" alt="">
       <h2>Our campus</h2>
       <p>Find which campus is close by you</p>
       <a href="#">Read more</a>
     </div>
 
     <div class="guest">
+      <img src="resources/images/information-guest-lecture.jpg" alt="">
       <h2>Our guest lecture</h2>
       <p>Join a keynote with Oliver Sack about music in medical treatment.</p>
       <a href="#">Read more</a>
@@ -74,33 +90,46 @@
 
 <div class="container courses">
   <div class="engineering">
+    <img src="resources/images/course-software.jpg" alt="">
     <h2>Software engineering</h2>
     <span>COURSES</span>
     <p>Web Development, Mobile Development, iOT, APIs</p>
   </div>
 
   <div class="computer">
+    <img src="resources/images/course-computer.jpg" alt="">
     <h2>Computer art</h2>
     <span>COURSES</span>
     <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
   </div>
 
   <div class="design">
+    <img src="resources/images/course-design.jpg" alt="">
     <h2>Design</h2>
     <span>COURSES</span>
     <p>User Experience Design, User Research, Visual Design</p>
   </div>
 
   <div class="data">
+    <img src="resources/images/course-data.jpg" alt="">
     <h2>Data</h2>
     <span>COURSES</span>
     <p>Data Science, Big Data, SQL, Data Visutalization</p>
   </div>
 
   <div class="business">
+    <img src="resources/images/course-business.jpg" alt="">
     <h2>Business</h2>
     <span>COURSES</span>
     <p>Product Development, Business Development, Startup</p>
+  </div>
+
+  <div class="marketing">
+    <img src="resources/images/course-marketing.jpg" alt="">
+    <h2>Marketing</h2>
+    <span>COURSES</span>
+    <p>Analytics, Content Marketing, Mobile Marketing</p>
+
   </div>
 </div>
 
@@ -110,8 +139,7 @@
 <h1>Thesis exhibit</h1>
 
 <div class="reimagine">
-  <video src="videofile.ogg" autoplay poster="posterimage.jpg">
-
+  <video autoplay muted loop> ==$0 <source src="resources/videos/thesis.mp4" type="video/mp4"> ==$0</video>
   </video>
   <h2>Reimagine urban</h2>
   <p>
@@ -120,13 +148,13 @@
 </div>
 
 <div class="fisma">
-  <img src="" alt="">
+  <img src="resources/images/thesis-fisma.jpg" alt="">
   <h2>Fisma: Design and Prototype</h2>
   <p>Designer Showcase of new prototype product</p>
 </div>
 
 <div class="now">
-  <img src="" alt="">
+  <img src="resources/images/thesis-now-and-then.jpg" alt="">
   <h2>Now and Then</h2>
   <p>Research study about New York</p>
 </div>
@@ -136,7 +164,7 @@
 <!-- Footer -->
 
 <footer>
-2016 Colmar Academy. All rights reserved
+  &copy; 2016 Colmar Academy. All rights reserved
 </footer>
 
 
