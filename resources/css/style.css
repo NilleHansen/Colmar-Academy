@@ -163,6 +163,15 @@ div {
 
 }
 
+img{
+  filter: grayscale(1);
+}
+
+img:hover{
+  filter: none;
+  transition: all 0.5s ease-in-out;
+}
+
 .phone-banner {
   display: none;
 }
