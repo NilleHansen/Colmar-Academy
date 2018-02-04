@@ -11,6 +11,19 @@ body {
   line-height: 1;
 }
 
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+a {
+  display: block;
+  padding-top: 1rem;
+}
+
 /* Navigation Bar */
 
 header {
@@ -31,7 +44,7 @@ nav {
   transition: all 0.25s ease-out;
 }
 nav span:hover{
-  transition: all 0.25s ease-out;
+
 }
 
 nav span {
@@ -138,7 +151,15 @@ div {
 
 }
 
-.start-here span {
+.start-here:hover {
+  background-color: #ffeb3b7d;
+}
+
+#button:hover {
+  transition: color 1.2s linear 0.2s;
+  background-color: #ffeb3b7d;
+  box-shadow: 0px 0px 20px 0px;
+  border-radius: 10px 10px;
 
 }
 
