@@ -28,6 +28,10 @@ header {
 
 nav {
   padding-right: 1.5rem;
+  transition: all 0.25s ease-out;
+}
+nav span:hover{
+  transition: all 0.25s ease-out;
 }
 
 nav span {
@@ -52,6 +56,7 @@ div {
 .flexbox {
   display: flex;
   flex-wrap: wrap;
+  border-radius: 10px 10px;
 }
 
 .logo {
@@ -102,10 +107,12 @@ div {
   padding: 32px 24px;
   width: 60%;
 
+
 }
 
 .image-container img {
   width: 100%;
+  border-radius: 10px 10px;
 }
 
 .container .learn {
@@ -124,7 +131,9 @@ div {
   padding: 8px 0px;
   color: white;
   text-align: center;
+  justify-content: center;
   width: 40%;
+  border-radius: 10px 10px;
 
 
 }
@@ -151,8 +160,6 @@ div {
   padding: 32px 24px;
 }
 
-
-
 .program {
   display: flex;
   flex-direction: column;
@@ -173,6 +180,7 @@ div {
 
 .practice img {
   width: 100%;
+  border-radius: 10px 10px;
 }
 
 .event {
@@ -184,7 +192,8 @@ div {
 .event img {
   height: auto;
   max-width: 35%;
-  padding: 16px 16px;
+  margin: 16px 16px;
+  border-radius: 10px 10px;
 
 }
 
@@ -204,6 +213,7 @@ div {
 
 .event:last-child {
   background-color: gainsboro;
+  border-radius: 10px 10px;
 }
 
 /* Courses */
@@ -237,11 +247,13 @@ div {
   display: block;
   margin: 32px 32px;
   max-width: 30%;
+  border-radius: 10px 10px;
 }
 
 .course img {
   height: auto;
   width: 100%;
+  border-radius: 10px 10px;
 }
 
 .course h2 {
@@ -288,7 +300,8 @@ div {
 .thesis-info img {
   width: 35%;
   height: auto;
-  padding: 16px 16px;
+  margin: 16px 16px;
+  border-radius: 10px 10px;
 }
 
 .thesis h1 {
@@ -304,6 +317,11 @@ div {
 
 .video-flexbox video {
   width: 100%;
+  border-radius: 10px 10px;
+}
+
+.video-flexbox:hover {
+  border-color: yellow;
 }
 
 .thesis-info .flexbox {
@@ -376,13 +394,76 @@ footer {
   .phone-banner .event{
     flex-direction: column;
     align-items: center;
-    max-width: 100%;
+    width: 100%;
     margin: 1rem;
   }
 
   .phone-banner .event img {
     align-items: center;
     width: 100%;
+  }
+
+  /* Courses */
+
+.start-learning {
+  background-color: white;
+  width: 100%;
+}
+
+.course-container {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+
+}
+
+.course-container img {
+  display: none;
+}
+
+.course {
+  background-color: gainsboro;
+  margin: 16px 0 8px 0;
+  width: auto;
+}
+
+.course span {
+  display: none;
+}
+
+.course p {
+  display: none;
+}
+
+  /* thesis */
+
+  .container .thesis {
+    padding-bottom: 24px;
+
+  }
+
+  .thesis-info {
+    display: none;
+  }
+
+  .thesis-container h1 {
+    padding: 32px 24px 16px 24px;
+  }
+
+  .video-flexbox p {
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  .video-flexbox {
+    width: 100%;
+  }
+
+  footer{
+    padding: 16px 24px;
   }
 }
 
@@ -414,5 +495,17 @@ footer {
 
     .desktop {
       display: none;
+    }
+
+    /* thesis */
+
+
+
+
+
+    /* footer */
+
+    footer{
+      padding: 16px 24px;
     }
 }
