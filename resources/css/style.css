@@ -223,6 +223,7 @@ div {
   flex-flow: wrap;
   justify-content: center;
 
+
 }
 
 .start-learning h1 {
@@ -235,7 +236,7 @@ div {
   background-color: white;
   display: block;
   margin: 32px 32px;
-  width: 30%;
+  max-width: 30%;
 }
 
 .course img {
