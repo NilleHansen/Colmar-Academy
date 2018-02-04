@@ -156,7 +156,7 @@ div {
 }
 
 #button:hover {
-  transition: color 1.2s linear 0.2s;
+  transition-duration: 1s;
   background-color: #ffeb3b7d;
   box-shadow: 0px 0px 20px 0px;
   border-radius: 10px 10px;
