@@ -2,7 +2,7 @@
 html {
   font-size: 16px;
   font-family: helvetica, sans-serif;
-  color: dimgray;
+  color: #3e3e3e;
   font-weight: bold;
 }
 
@@ -13,10 +13,12 @@ body {
 
 h1 {
   font-size: 4rem;
+  font-family: 'Gravitas One';
 }
 
 h2 {
   font-size: 2rem;
+  font-family: 'Gravitas One';
 }
 
 a {
@@ -132,21 +134,26 @@ div {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-right: 4rem;
   text-align: left;
 
+}
 
+.learn {
+  margin: auto;
 }
 
 .start-here {
   display: block;
   background-color: dimgray;
-  padding: 8px 0px;
+  padding: 2rem 4rem;
   color: white;
   text-align: center;
   justify-content: center;
+  align-items: center;
   width: 40%;
   border-radius: 10px 10px;
+  margin: auto;
+  margin-top: 4rem;
 
 
 }
@@ -251,7 +258,6 @@ img:hover{
 .start-learning {
   background-color: gainsboro;
   margin: 0;
-  width: 100%;
   display: flex;
   padding: 0px 72px;
   flex-flow: column;
@@ -373,6 +379,12 @@ footer {
 /* display */
 
 @media only screen and (max-width: 1024px){
+
+
+  p {
+    text-align: center;
+  }
+
   .container {
     padding: 0;
   }
@@ -391,12 +403,14 @@ footer {
   }
 
   h1 {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     font-size: 2.2rem;
+    text-align: center;
   }
 
   h2 {
     font-size: 1.1rem;
+    text-align: center;
 
   }
 
@@ -457,7 +471,7 @@ footer {
 .course {
   background-color: gainsboro;
   margin: 16px 0 8px 0;
-  width: auto;
+  width: 100%;
 }
 
 .course span {
